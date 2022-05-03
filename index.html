@@ -16,10 +16,20 @@
             <img class="logo" src="img/logoo.png" alt="GameMania">
         </a>
         <div class="contato">
-            <div class="phone"><a href="#"><img src="img/chamada-telefonica (2) 1.png" alt=""></a></div>
-            <div class="gmail"><a href="#"><img src="img/gmail (1) 1.png" alt=""></a></div>
+            <a href="">
+                <div class="phone"><img src="img/chamada-telefonica (2) 1.png" alt=""></div>
+            </a>
+            <a href="">
+                <div class="gmail"><a href="#"><img src="img/gmail (1) 1.png" alt=""></div>
+            </a>
+            <a href="">
+                <img class="lupa2" src="img/lupa2.svg" alt="Lupa Responsiva">
+            </a>    
+            <a href="" onclick="mostrarMenu()">
+                <img class="barra" src="img/bars-solid.svg" alt="Barra de Menu">
+            </a>    
         </div> 
-        <nav class="menu">
+        <nav id="menu" class="menu">
             <a href="home.html">Home</a>
             <a href="acessórios.html">Acessórios</a>
             <a href="camisetas.html">Camisetas</a>
@@ -156,13 +166,24 @@
             <li><a href="#"><img class="whats" src="img/whatsapp 1.png" alt=""></a></li>
         </ul>      
 </div>
+    
+
 
 <p></p>
 
 
+<script>
+    let menu = document.getElementById("menu")
 
+    function mostrarMenu() {
+        if(menu.style.display == "none") {
+            menu.style.display = "flex"
+        }else{
+            menu.style.display = "none"
+        }
+    }
+</script>
 
-<!-- Link carrossel para JS do Bootstrap -->
 </body>
 
 

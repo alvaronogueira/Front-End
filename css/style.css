@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-.container.grid{
-    background-color: #218EF2;
-}
 
 .logo{
     margin-left: 350px;
@@ -17,6 +14,7 @@ header {
     height: 96px;
     border-style: solid;
     border-color: black;
+    width: 1349px;
 }
 
 .contato{
@@ -34,6 +32,18 @@ header {
 
 .gmail{
     margin-top: -7px;
+}
+
+.lupa2{
+    width: 30px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.barra{
+    width: 30px;
+    display: none;
+    margin-bottom: 10px;
 }
 
 .menu a{
@@ -273,3 +283,19 @@ ul{
 }
 
 
+@media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .legenda{
+        color: red;
+    }
+    
+    .barra, .lupa2{
+        display: inline-block;
+        justify-content: space-between;
+    }
+}
