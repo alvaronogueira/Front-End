@@ -10,11 +10,12 @@
 <body> 
 <header>
 <!-- CABEÇALHO -->
-    <div>
-        <a href="">
-            <img class="joy" src="img/logo1.png" alt="joystick">
-            <img class="logo" src="img/logoo.png" alt="GameMania">
-        </a>
+    <div class="container-grid position-header">
+        <div class="header">
+            <a href="">
+                <img class="joy" src="img/logo1.png" alt="joystick">
+                <img class="logo" src="img/logoo.png" alt="GameMania">
+            </a>
         <div class="contato">
             <a href="">
                 <div class="phone"><img src="img/chamada-telefonica (2) 1.png" alt=""></div>
@@ -25,21 +26,23 @@
             <a href="">
                 <img class="lupa2" src="img/lupa2.svg" alt="Lupa Responsiva">
             </a>    
-            <a href="" onclick="mostrarMenu()">
+            <a href="#" onclick="mostrarMenu()">
                 <img class="barra" src="img/bars-solid.svg" alt="Barra de Menu">
             </a>    
         </div> 
-        <nav id="menu" class="menu">
-            <a href="home.html">Home</a>
-            <a href="acessórios.html">Acessórios</a>
-            <a href="camisetas.html">Camisetas</a>
-            <a href="consoles.html">Consoles</a>
-            <a href="login/cadastro.html">Login/Cadastro</a>
-            <form class="form-inline" action="/action_page.php">
-                <input class="search-txt" type="text" placeholder="Pesquisar...">
-                    <img class="lupa" src="img/search.png" alt="">
-            </form>
-        </nav>
+        <div class="nav-bar">
+            <nav id="menu" class="menu">
+                <a href="home.html">Home</a>
+                <a href="acessórios.html">Acessórios</a>
+                <a href="camisetas.html">Camisetas</a>
+                <a href="consoles.html">Consoles</a>
+                <a href="login/cadastro.html">Login/Cadastro</a>
+                <form class="form-inline" action="/action_page.php">
+                    <input class="search-txt" type="text" placeholder="Pesquisar...">
+                        <img class="lupa" src="img/search.png" alt="">
+                </form>
+            </nav>
+        </div>    
     </div>
     <div class="container2">
         <a href="pc.html"><img src="img/pc.png" alt="PC"></a>
@@ -173,14 +176,10 @@
 
 
 <script>
-    let menu = document.getElementById("menu")
-
     function mostrarMenu() {
-        if(menu.style.display == "none") {
-            menu.style.display = "flex"
-        }else{
-            menu.style.display = "none"
-        }
+        document.getElementById("menu").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        
     }
 </script>
 

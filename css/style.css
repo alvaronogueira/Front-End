@@ -9,7 +9,7 @@
     margin-left: 350px;
 }
 
-header {
+.header {
     background-color: #218EF2;
     height: 96px;
     border-style: solid;
@@ -55,8 +55,9 @@ header {
     margin-left: 20px;   
 }
 
-.menu {
-    margin-block-start: 15px;
+.menu{
+    margin-block-start: 25px;
+    margin-bottom: 25px;
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -86,12 +87,12 @@ header {
     justify-content: space-between;
     width: 1200px;
     margin-left: 70px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .gamer{
     margin-inline-start: 600px;
-    margin-top: 480px;
+    margin-top: 50px;
     width: 450px;
     font-size:xx-large;
 }
@@ -287,6 +288,20 @@ ul{
     .container-grid{
         width: 90%;
     }
+    
+    .header{
+        height: 70px;
+    }
+    
+    .logo{
+        width: 200px;
+        align-items: center;
+    }
+    
+    .joy{
+        width: 60px;
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -294,8 +309,38 @@ ul{
         color: red;
     }
     
-    .barra, .lupa2{
+    .barra{
         display: inline-block;
         justify-content: space-between;
+    }
+
+    .container2{
+        margin-top: 50px;
+    }
+
+    .phone, .gmail{
+        display: none;
+    }
+
+    #menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        right: 60;
+    }
+
+    .menu a{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        right: 60;
+    }
+    
+    .position-header{
+        position: relative;
     }
 }
