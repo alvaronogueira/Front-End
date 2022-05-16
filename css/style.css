@@ -106,7 +106,7 @@
 
 
 ul{
-    width: 2000px;
+    width: 200px;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -281,7 +281,7 @@ ul{
     }
     
     .logo{
-        width: 200px;
+        width: 250px;
         align-items: center;
     }
     
@@ -291,12 +291,27 @@ ul{
 
 }
 
+
+
 @media screen and (max-width: 768px){
         
     .legenda{
         color: red;
     }
+  
+    .joy{
+        width: 40px;
+    } 
     
+    .logo{
+        width: 200px;
+        align-items: center;
+    }
+
+    .header{
+        height: 45px;
+    }
+
     .barra{
         display: inline-block;
         justify-content: space-between;
