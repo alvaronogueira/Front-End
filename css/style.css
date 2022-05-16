@@ -315,6 +315,8 @@ ul{
     .barra{
         display: inline-block;
         justify-content: space-between;
+        width: 30px;
+        margin-top: 10px;
     }
 
     .container2{
