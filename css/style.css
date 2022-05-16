@@ -28,10 +28,12 @@
 .phone{
     margin-left: 70px;
     margin-top: -5px;
+    display: flex;
 }
 
 .gmail{
     margin-top: -7px;
+    display: flex;
 }
 
 .lupa2{
@@ -277,16 +279,29 @@ ul{
 
 @media screen and (max-width: 1200px) {
     .header{
+        width: 100%;
         height: 70px;
     }
     
     .logo{
         width: 250px;
         align-items: center;
+        display: flex;
+        margin: auto;
+        margin-top: -30px;
     }
     
     .joy{
         width: 60px;
+    }
+
+    .contato, .phone, .gmail{
+        display: flex;
+    }
+
+    .ul{
+        width: 100%;
+        height: 40%;
     }
 
 }
@@ -306,21 +321,27 @@ ul{
     .logo{
         width: 200px;
         align-items: center;
+        display: flex;
     }
 
     .header{
+        width: 100%;
         height: 45px;
     }
 
+    .position-header{
+        width: 100%;
+    }
+
     .barra{
-        display: inline-block;
-        justify-content: space-between;
         width: 30px;
         margin-top: 10px;
+        display: flex;
     }
 
     .container2{
         margin-top: 50px;
+        width: 100%;
     }
 
     .phone, .gmail{
