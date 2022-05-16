@@ -52,12 +52,11 @@
     font-family: sans-serif;
     font-size: 35px;
     font-weight: bold;
-    margin-left: 20px;   
+    margin-left: 30px;   
 }
 
 .menu{
     margin-block-start: 25px;
-    margin-bottom: 25px;
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -66,7 +65,7 @@
 .form-inline{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 16px;
     width: 60px;
     height: 25px;
 }
@@ -85,8 +84,8 @@
 .container2{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    margin-left: 70px;
+    width: 1250px;
+    margin-left: 40px;
     margin-top: 50px;
 }
 
@@ -106,23 +105,19 @@
 
 
 
-.container-gamer{
-    width: 1100px;
-    height: 280px;
+ul{
+    width: 2000px;
+    list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
-    background-color: #fcfdff;
-}
-
-ul{
-    width: 1340px;
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
     margin-top: 30px;
     text-decoration: none;
     background-color: #fcfdff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .legenda{
@@ -143,9 +138,9 @@ ul{
 
 .more{
     text-align: center;
-    border-style: solid; border-width: 1px; width: 80px; height: 25px; align-items: center;
-    margin-left: 635px; border-radius: 5px;
-    margin-top: 8px;
+    border-style: solid; 
+    border-width: 1px; width: 80px; align-items: center;
+    margin-left: 635px; border-radius: 5px; 
  }
 
 
@@ -186,11 +181,6 @@ ul{
     font-family: sans-serif;
 }
 
-.call{
-    width: 150px;
-    height: 10px;
-}
-
 .price{
     color: #218EF2;
     font-family: sans-serif;
@@ -219,11 +209,12 @@ ul{
     margin-inline-start: 10px;
     margin-top: 4px;
     display: flex;
-    width: 880px;
+    width: 880px;   
 }
 
 .escrito{
     text-decoration: none;
+    color: white;
 }
 
 .cards{
@@ -245,8 +236,8 @@ ul{
     justify-content: flex-end;
     font-family: sans-serif;
     font-size: 15pt;
-    margin-right: 320px;
-    margin-top: -60px;
+    margin-right: 80px;
+    margin-top: -74px;
     color: white;
 }
 
@@ -273,25 +264,20 @@ ul{
 
 .preco{
     background-color: #218EF2;
-    text-decoration: none;
     width: 80px; height: 30px;
     border-radius: 10px;
-    margin: auto;
-    align-items: center;
+    text-align: center;
     padding: 7px;
     color: white;
     font-family: sans-serif; font-style: oblique; font-weight: 800;
+    margin: auto;
+    margin-top: 5px;
 }
 
 
 @media screen and (max-width: 1200px) {
-    .container{
-        width: 90%;
-    }
-    
     .header{
         height: 70px;
-        width: 100%;
     }
     
     .logo{
@@ -306,10 +292,7 @@ ul{
 }
 
 @media screen and (max-width: 768px){
-    .container{
-        width: 90%;        
-    }
-    
+        
     .legenda{
         color: red;
     }
