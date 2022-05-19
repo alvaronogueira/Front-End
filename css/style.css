@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -134,7 +134,10 @@ ul{
     margin-top: 30px;
 }
 
-.headset .mouse{
+.headset{
+    margin-top: 10px;
+} 
+.mouse{
     margin-top: 10px;
 }
 
@@ -277,6 +280,21 @@ ul{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px) {
     .header{
         width: 100%;
@@ -304,6 +322,24 @@ ul{
         height: 40%;
     }
 
+    /* CSS GRID */
+    .container2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 768px;
+        grid-gap: 10px;
+        margin-left: 2px;
+        width: 90%;
+    }
+    .container{
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 768px;
+        grid-gap: 10px;
+        margin: 0 auto;
+    }
+
 }
 
 
@@ -329,21 +365,16 @@ ul{
         height: 45px;
     }
 
-    .position-header{
+    .position-header, .barra{
         width: 100%;
     }
 
     .barra{
         width: 30px;
         margin-top: 10px;
-        display: flex;
+        display: inline-block;
     }
-
-    .container2{
-        margin-top: 50px;
-        width: 100%;
-    }
-
+   
     .phone, .gmail{
         display: none;
     }
@@ -354,7 +385,6 @@ ul{
         width: 200px;
         height: 250px;
         position: absolute;
-        right: 60;
     }
 
     .menu a{
@@ -363,10 +393,47 @@ ul{
         width: 200px;
         height: 250px;
         position: absolute;
-        right: 60;
     }
     
     .position-header{
         position: relative;
     }
+
+    /* CSS GRID */
+    .container2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 768px;
+        grid-gap: 10px;
+        margin-left: 2px;
+        width: 90%;
+    }
+    .gamer{
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .container{
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 768px;
+        grid-gap: 10px;
+        width: 100px;
+    }
+    .link1{
+        text-decoration: none;
+        color: black;
+        font-size: 10pt;
+    }
+    .placa, .headset{
+        width: 200px;
+        height: 220px;
+    }
+
+    .cadeira {
+        height: 210px;
+    } 
+    
+    
 }
