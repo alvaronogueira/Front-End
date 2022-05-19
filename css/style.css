@@ -323,6 +323,10 @@ ul{
     }
 
     /* CSS GRID */
+    .menu{
+        font-size: 15pt;
+        width: 90%;
+    }
     .container2{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -365,11 +369,12 @@ ul{
         height: 45px;
     }
 
-    .position-header, .barra{
+    .position-header{
         width: 100%;
     }
 
     .barra{
+        margin-right: 1550px;
         width: 30px;
         margin-top: 10px;
         display: inline-block;
@@ -434,6 +439,9 @@ ul{
     .cadeira {
         height: 210px;
     } 
-    
+    .gd, .cl{
+        width: 220px;
+        height: 260px;
+    }
     
 }
