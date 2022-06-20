@@ -386,10 +386,12 @@ ul{
     }
 
     .barra{
-        margin-right: 1550px;
         width: 30px;
         margin-top: 10px;
         display: inline-block;
+    }
+    .form-inline, .lupa{
+        display: none;
     }
    
     .phone, .gmail{
@@ -401,7 +403,7 @@ ul{
         flex-direction: column;
         width: 200px;
         height: 250px;
-        position: absolute;
+        position: relative;
     }
 
     .menu a{
@@ -409,7 +411,7 @@ ul{
         flex-direction: column;
         width: 200px;
         height: 250px;
-        position: absolute;
+        position: relative;
     }
 
     .pride{
