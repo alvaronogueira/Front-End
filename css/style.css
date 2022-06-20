@@ -403,7 +403,7 @@ ul{
         flex-direction: column;
         width: 200px;
         height: 250px;
-        position: relative;
+        position: absolute;
     }
 
     .menu a{
