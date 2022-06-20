@@ -385,42 +385,37 @@ ul{
         width: 100%;
     }
 
+    .phone, .gmail{
+        display: none;
+    }
+
     .barra{
         width: 30px;
         margin-top: 10px;
         display: inline-block;
     }
-    .form-inline, .lupa{
+    
+    #menu{
+        flex-direction: column;
+        width: 200px;
+        height: 250px;
+        position: relative;
+    }
+    .menu a{
+        display: inline-block;
+    }
+    .form-inline{
         display: none;
     }
    
-    .phone, .gmail{
-        display: none;
-    }
-
-    #menu{
-        display: none;
-        flex-direction: column;
-        width: 200px;
-        height: 250px;
-        position: absolute;
-    }
-
-    .menu a{
-        display: none;
-        flex-direction: column;
-        width: 200px;
-        height: 250px;
-        position: relative;
-    }
 
     .pride{
         max-width: 320px;
-        margin: 0 auto;
+        margin-top: 100px;
     }
     
     .position-header{
-        position: relative;
+        position: absolute;
     }
 
     /* CSS GRID */
