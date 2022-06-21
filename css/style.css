@@ -396,14 +396,15 @@ ul{
         display: none;
         flex-direction: column;
         width: 260px;
-        height: 260px;
+        height: 270px;
+        margin-left: 220px;
         position: absolute;
         background-color: chartreuse;
     }
     .menu a{
         text-align: left;
+        text-justify: newspaper;
         padding: 0px
-        
     }
     .letra{
         font-size: 20pt;
