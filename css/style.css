@@ -43,9 +43,10 @@
 }
 
 .barra{
-    width: 30px;
+    width: 25px;
+    height: 55px;
     display: none;
-    margin-bottom: 10px;
+    margin-inline: 445px;
 }
 
 .menu a{
@@ -82,6 +83,7 @@
 .search-txt{
     width: 150px;
     margin-right: 10px;
+    font-size: 15pt;
 }
 
 .lupa{
@@ -99,9 +101,8 @@
 }
 
 .gamer{
-    margin-inline-start: 600px;
+    text-align: center;
     margin-top: 50px;
-    width: 450px;
     font-size:xx-large;
 }
 
@@ -307,16 +308,14 @@ ul{
     .header{
         width: 100%;
         height: 70px;
-    }
-    
+    }    
     .logo{
         width: 250px;
         align-items: center;
         display: flex;
         margin: auto;
-        margin-top: -30px;
-    }
-    
+        margin-top: -40px;
+    }    
     .joy{
         width: 60px;
     }
@@ -326,7 +325,7 @@ ul{
     }
 
     .pride{
-        max-width: 900px;
+        max-width: 100%;
     }
 
     .ul{
@@ -360,102 +359,92 @@ ul{
 
 
 
+
+
 @media screen and (max-width: 768px){
-        
+    .position-header{
+        width: 100%;
+        height: 40px;
+        position: relative;
+    }
+    .header{
+        height: 45px;
+    }
     .legenda{
         color: red;
     }
-  
     .joy{
         width: 40px;
-    } 
-    
+    }
     .logo{
         width: 200px;
         align-items: center;
         display: flex;
+        padding: 10px;
     }
-
-    .header{
-        width: 100%;
-        height: 45px;
-    }
-
-    .position-header{
-        width: 100%;
-    }
-
     .phone, .gmail{
         display: none;
     }
+    .more{
+        margin: auto;
+    }
+
+
+
+
+
+
+
 
     .barra{
-        width: 30px;
-        margin-top: 10px;
         display: inline-block;
     }
-    
-    #menu{
+    .menu{
+        display: none;
         flex-direction: column;
-        width: 200px;
-        height: 250px;
-        position: relative;
+        width: 260px;
+        height: 260px;
+        top: 0;
+        margin: 170px;
+        position: absolute;
+        font-size: 20pt;
+        background-color: chartreuse;
     }
     .menu a{
-        display: inline-block;
+        text-align: left;
+        padding: 0px
+        
     }
+    .letra{
+        font-size: 20pt;
+    }
+
+
+
+
+
+
+
+
+
+
     .form-inline{
         display: none;
     }
-   
-
     .pride{
-        max-width: 320px;
-        margin-top: 100px;
+        width: 80%;
     }
     
-    .position-header{
-        position: absolute;
-    }
-
-    /* CSS GRID */
-    .container2{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 768px;
-        grid-gap: 10px;
-        margin-left: 2px;
-        width: 90%;
-    }
-    .gamer{
-        margin: auto;
-        text-align: center;
-        margin-top: 50px;
-    }
-    .container{
-        display: grid;
-        flex-wrap: wrap;
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 768px;
-        grid-gap: 10px;
-        width: 100px;
-    }
-    .link1{
-        text-decoration: none;
-        color: black;
-        font-size: 10pt;
-    }
     .placa, .headset{
         width: 200px;
         height: 220px;
     }
-
     .cadeira {
         height: 210px;
     } 
     .gd, .cl{
         width: 220px;
         height: 260px;
-    }
+    }    
     
 }
