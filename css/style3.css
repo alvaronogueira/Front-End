@@ -84,3 +84,12 @@
     margin: 0 auto;
     display: table;
 }
+
+.container-banner img{
+    width: 50%;
+    float: left;
+}
+
+.container-banner .texto-descritivo{
+    margin-top: 20px;
+}
