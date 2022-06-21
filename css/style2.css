@@ -48,6 +48,9 @@ body, ul, li, p{
     margin-top: -7px;
     display: flex;
 }
+.letra{
+    display: none;
+}
 
 .lupa2{
     width: 30px;
@@ -353,9 +356,10 @@ body, ul, li, p{
     .menu{
         display: none;
         flex-direction: column;
-        width: 260px;
-        height: 270px;
+        width: 290px;
+        height: 290px;
         margin-left: 190px;
+        top: 30px;
         position: absolute;
         background-color: chartreuse;
     }
@@ -364,9 +368,7 @@ body, ul, li, p{
         text-justify: newspaper;
         padding: 0px
     }
-    .letra{
-        font-size: 20pt;
-    }
+    
     .form-inline{
         display: none;
     }
