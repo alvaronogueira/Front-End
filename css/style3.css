@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*CABEÇALHO*/
 .logo{
     margin-left: 350px;
 }
@@ -35,11 +36,13 @@
     display: flex;
 }
 
+/*MENU*/
 .barra{
     width: 25px;
     height: 55px;
     display: none;
     margin-inline: 445px;
+    margin-top: -70px;
 }
 
 .menu a{
@@ -78,6 +81,7 @@
     margin: 1.5px;
 }
 
+/*BODY*/
 .container-banner{
     width: 90%;
     height: 600px;
@@ -112,7 +116,78 @@
     margin-top: 10px;
 }
 
+/*RODAPÉ*/
+.container-end{
+    background-color:#218EF2;
+    font-family: sans-serif;
+    width: 1349px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 25px;
+}
 
+.escr{
+    margin-inline-start: 10px;
+    margin-top: 4px;
+    display: flex;
+    width: 880px;   
+}
+
+.escrito{
+    text-decoration: none;
+    color: white;
+}
+
+.cards{
+    width: 425px;
+    height: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+    margin-left: 400px;
+}
+
+.pix, .visa, .master, .pay{
+    height: 30px;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    font-size: 15pt;
+    margin-right: 80px;
+    margin-top: -74px;
+    color: white;
+}
+
+.logos{
+    background-color: #218EF2;
+    display: flex;
+    justify-content:flex;
+    width: 100px;
+    margin-left: 1100px;
+    margin-top: 10px;
+}
+
+.face{
+    background-color: #218EF2;
+    margin-top: 20px;
+    margin-right: 3px;
+    height: 40px;
+}
+
+.insta, .whats{
+    background-color: #218EF2;
+    height: 47px;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+ul{
+    list-style: none;
+}
 
 
 
@@ -193,6 +268,10 @@
     }
     .phone, .gmail{
         display: none;
+    }
+    .container-banner img{
+        margin-top: 10px;
+        width: 90%;
     }
     .barra{
         display: inline-block;
