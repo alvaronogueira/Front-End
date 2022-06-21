@@ -279,9 +279,9 @@ ul{
     .menu{
         display: none;
         flex-direction: column;
-        width: 260px;
-        height: 270px;
-        margin-left: 220px;
+        width: 300px;
+        height: 290px;
+        margin-left: 190px;
         position: absolute;
         background-color: chartreuse;
     }
