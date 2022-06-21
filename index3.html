@@ -59,10 +59,18 @@
                 <h1>Processador AMD Athlon 3000g</h1>
                 <p style="text-align: center;">AMD Athlon™ 3000G <br> Versão PCI Express. PCIe® 3.0 <br> 2 canais de memória <br> Velocidade máxima da memória Up to 2667MHz; <br> Graphics Capabilities. Modelo gráfico.
                 </p>
-        </section>        
-    </div>               
+                <h2 style="text-align: center;">Quantidade</h2>
+        </section>   
+        <div class="btn-group inline" role="group" aria-label="Basic example">
+            <input class="form-control" type="number" name="quantidade" onchange="preencheTotalProduto()" min="0" max="<?= $tamanho['estoque'];?>" value="1">
+       </div>     
+       <div class="compre">
+        <a href="">Comprar</a>
+       </div>
+    </div>    
+               
     
-
+    
 
 
 

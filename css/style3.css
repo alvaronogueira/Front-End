@@ -93,3 +93,24 @@
 .container-banner .texto-descritivo{
     margin-top: 20px;
 }
+
+.btn-group{
+    width: 80px;
+    margin-left: 270px;
+}
+
+.compre a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 5px;
+    display: flow-root;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
