@@ -114,3 +114,131 @@
 
 
 
+
+
+
+@media screen and (max-width: 1200px) {
+    .header{
+        width: 100%;
+        height: 70px;
+    }    
+    .logo{
+        width: 250px;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        margin-top: -40px;
+    }    
+    .joy{
+        width: 60px;
+    }
+    .menu, menu a{
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        top: 20px;
+    }
+    .phone, .gmail{
+        display: none;
+    }
+    .redes{
+        display: none;
+    }
+    .escr, .escrito{
+        position: relative;
+        width: 95%;
+    }
+    .cards{
+        background-color: #218EF2;
+        width: 50%;
+        margin: auto;
+        margin-top: -60px;
+    }
+    
+    .logos{
+        background-color: white;
+        align-items: center;
+        width: 70%;
+        height: 40%;
+        display:flex;
+        margin-left: 150px;
+        margin-top: 60px;
+    }
+}    
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .position-header{
+        width: 100%;
+        height: 40px;
+        position: relative;
+        }
+    .header{
+        height: 45px;
+    }
+    .legenda{
+        color: red;
+    }
+    .joy{
+        width: 40px;
+    }
+    .logo{
+        width: 200px;
+        align-items: center;
+        display: flex;
+        padding: 10px;
+    }
+    .phone, .gmail{
+        display: none;
+    }
+    .barra{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 260px;
+        height: 270px;
+        margin-left: 220px;
+        position: absolute;
+        background-color: chartreuse;
+    }
+    .menu a{
+        text-align: left;
+        text-justify: newspaper;
+        padding: 0px
+    }
+    .form-inline{
+        display: none;
+    }
+    .container-end{
+        width: 100%;
+        height: 100px;
+    }
+    .redes{
+        display: none;
+    }
+    .escr, .escrito{
+        position: relative;
+        width: 95%;
+    }
+    .cards{
+        background-color: #218EF2;
+        width: 25%;
+        margin: auto;
+        margin-top: -35px;
+    }
+        
+    .logos{
+        background-color: white;
+        align-items: center;
+        width: 30%;
+        height: 20%;
+        display:flex;
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+}
