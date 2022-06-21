@@ -268,9 +268,48 @@ body, ul, li, p{
     .joy{
         width: 60px;
     }
-
+    .menu, menu a{
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        top: 20px;
+    }
+    .lupa{
+        width: 15px;
+    }
     .contato, .phone, .gmail{
         display: flex;
+    }
+
+
+
+
+    .container-end{
+        width: 100%;
+        height: 100px;
+    }
+    .redes{
+        display: none;
+    }
+    .escr, .escrito{
+        position: relative;
+        width: 95%;
+    }
+    .cards{
+        background-color: #218EF2;
+        width: 50%;
+        margin: auto;
+        margin-top: -60px;
+    }
+    
+    .logos{
+        background-color: white;
+        align-items: center;
+        width: 70%;
+        height: 40%;
+        display:flex;
+        margin-left: 150px;
+        margin-top: 60px;
     }
 }
 
@@ -280,6 +319,14 @@ body, ul, li, p{
 
 
 @media screen and (max-width: 768px){ 
+    .position-header{
+        width: 100%;
+        height: 40px;
+        position: relative;
+    }
+    .header{
+        height: 45px;
+    }
     .joy{
         width: 40px;
     } 
@@ -289,19 +336,57 @@ body, ul, li, p{
         align-items: center;
         display: flex;
     }
-
-    .header{
-        width: 100%;
-        height: 45px;
-    }
-
-    .barra{
-        width: 30px;
-        margin-top: 10px;
-        display: inline-block;
-    }
     .phone, .gmail{
         display: none;
+    }
+    
+    .barra{
+        display: inline-block;
+        margin-top: 55px;
+    }
+    
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 260px;
+        height: 270px;
+    }
+    
+
+
+
+
+
+
+
+
+
+    .container-end{
+        width: 100%;
+        height: 100px;
+    }
+    .redes{
+        display: none;
+    }
+    .escr, .escrito{
+        position: relative;
+        width: 95%;
+    }
+    .cards{
+        background-color: #218EF2;
+        width: 25%;
+        margin: auto;
+        margin-top: -35px;
+    }
+    
+    .logos{
+        background-color: white;
+        align-items: center;
+        width: 30%;
+        height: 20%;
+        display:flex;
+        margin-left: 150px;
+        margin-top: 30px;
     }
 
 }
