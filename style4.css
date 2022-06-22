@@ -1,0 +1,109 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+}
+.link2{
+    text-align: center;
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+}
+
+.logo{
+    margin-left: 350px;
+}
+
+.header{
+    background-color: #218ef2;
+    height: 96px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+}
+
+.contato{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1130px;
+    margin-top: -50px;
+}
+
+.phone{
+    margin-left: 70px;
+    margin-top: -5px;
+    display: flex;
+}
+
+.gmail{
+    margin-top: -7px;
+    display: flex;
+}
+.letra{
+    display: none;
+}
+
+.lupa2{
+    width: 30px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.barra{
+    width: 25px;
+    height: 55px;
+    display: none;
+    margin-inline: 445px;
+    margin-top: -55px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 30px;   
+}
+
+.menu{
+    margin-block-start: 15px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-inline{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    width: 60px;
+    height: 25px;
+    font-size: 15pt;
+}
+
+.search-txt{
+    width: 150px;
+    margin-right: 10px;
+}
+
+.lupa{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: #1D0606 ;
+}
