@@ -107,3 +107,15 @@ h1{
     color: white;
     background-color: #1D0606 ;
 }
+
+.cardss{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 80%;
+    margin: auto;
+    grid-gap: 40px;
+}
+.cardss a{
+    background-color: black;
+}
+
