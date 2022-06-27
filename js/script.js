@@ -1,6 +1,6 @@
 $ (document).ready(function () {
 
-    $("#banner img:eq(2)").addClass("banner-ativo").show()
+    $("#banner img:eq(0)").addClass("banner-ativo").show()
 
     setInterval (slide, 1000)
 
