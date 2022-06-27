@@ -368,6 +368,10 @@ body, ul, li, p{
         text-justify: newspaper;
         padding: 0px
     }
+
+    .menu-ativo{
+        display: flex;
+    }
     
     .form-inline{
         display: none;

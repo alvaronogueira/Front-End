@@ -290,6 +290,9 @@ ul{
         text-justify: newspaper;
         padding: 0px
     }
+    .menu-ativo{
+        display: flex;
+    }
     .form-inline{
         display: none;
     }

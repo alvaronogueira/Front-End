@@ -450,6 +450,11 @@ ul{
         text-justify: newspaper;
         padding: 0px
     }
+
+    .menu-ativo{
+        display: flex;
+    }
+    
     .letra{
         font-size: 20pt;
     }
