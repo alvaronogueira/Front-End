@@ -58,13 +58,17 @@
     justify-content: space-between;
 }
 
-.pride{
+/* BANNER */
+
+#carrossel img{
+    display: none;
+}
+.banner-ativo{
     display: flex;
-    width: 1200px;
-    margin: 0 auto;
-    height: 400px;
 }
 
+
+/* PESQUISAR */
 .form-inline{
     display: flex;
     justify-content: space-between;
@@ -72,25 +76,18 @@
     width: 60px;
     height: 25px;
 }
-
 .search-txt{
     width: 150px;
     margin-right: 10px;
     font-size: 15pt;
 }
-
 .lupa{
     display: flex;
     justify-content: space-between;
     margin: 1.5px;
 }
 
-#banner img{
-    display: none;
-}
-.banner_ativo{
-    display: flex;
-}
+
 
 .container2{
     display: flex;
@@ -328,9 +325,9 @@ ul{
         display: none;
     }
 
-    .pride{
-        max-width: 95%;
-    }
+   /* FALTA RESPONSIDADE DO BANNER */
+
+    
 
     .ul{
         width: 100%;
@@ -450,19 +447,22 @@ ul{
         padding: 0px
     }
 
+    
+    /* FALTA RESPONSIDADE DO BANNER */
     .menu-ativo{
         display: flex;
     }
 
+    
+    
+    
     .letra{
         font-size: 20pt;
     }
     .form-inline{
         display: none;
     }
-    .pride{
-        width: 80%;
-    }
+    
     
     .placa, .headset{
         width: 200px;
