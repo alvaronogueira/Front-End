@@ -1,13 +1,15 @@
 $ (document).ready(function () {
 
     $("#barra").click(function () {
-        if($("#menu").hasClass("menu-ativo")) {
-            $("#menu").removeClass("menu-ativo")
-        }else{
-            $("#menu").addClass("menu-ativo")
-        }
-
+        $("#menu").toggleClass("menu-ativo")
     })
+
+    /* Podemos também fazer desse jeito, mais longo */    
+    //     if($("#menu").hasClass("menu-ativo")) {
+    //         $("#menu").removeClass("menu-ativo")
+    //     }else{
+    //         $("#menu").addClass("menu-ativo")
+    //     }
 
 })
 
