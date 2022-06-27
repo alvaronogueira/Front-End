@@ -35,12 +35,6 @@
     display: flex;
 }
 
-.lupa2{
-    width: 30px;
-    display: none;
-    margin-bottom: 10px;
-}
-
 .barra{
     width: 25px;
     height: 55px;
@@ -91,7 +85,12 @@
     margin: 1.5px;
 }
 
-
+#banner img{
+    display: none;
+}
+.banner_ativo{
+    display: flex;
+}
 
 .container2{
     display: flex;
@@ -454,7 +453,7 @@ ul{
     .menu-ativo{
         display: flex;
     }
-    
+
     .letra{
         font-size: 20pt;
     }
