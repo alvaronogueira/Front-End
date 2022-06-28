@@ -1,4 +1,4 @@
-body, ul, li, p{
+body, ul, li{
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -79,7 +79,89 @@ body, ul, li, p{
     margin: 1.5px;
 }
 
+.cars{
+    margin-inline: auto;
+    display: flex;
+    width: 60%;
+    height: 400px;
+}
 
+p{
+    margin-left: 300px;
+    width: 800px; 
+    padding: 20px;
+    font-size: 20pt;
+    line-height: 1.8;
+}
+
+/*RODAPÉ*/
+.container-end{
+    background-color:#218EF2;
+    font-family: sans-serif;
+    width: 1349px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.escr{
+    margin-inline-start: 10px;
+    margin-top: 4px;
+    display: flex;
+    width: 880px;  
+    font-size: 15pt; 
+}
+
+.escrito{
+    text-decoration: none;
+    color: white;
+}
+
+.cards{
+    width: 425px;
+    height: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+    margin-left: 400px;
+}
+
+.pix, .visa, .master, .pay{
+    height: 30px;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    font-size: 15pt;
+    margin-right: 80px;
+    margin-top: -74px;
+    color: white;
+}
+
+.logos{
+    background-color: #218EF2;
+    display: flex;
+    justify-content:flex;
+    width: 100px;
+    margin-left: 1100px;
+    margin-top: 10px;
+}
+
+.face{
+    margin-top: 20px;
+    margin-right: 3px;
+    height: 40px;
+}
+
+.insta, .whats{
+    height: 47px;
+    margin-top: 18px;
+    margin-right: 3px;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -112,4 +194,97 @@ body, ul, li, p{
     .contato, .phone, .gmail{
         display: none;
     }
+    .cars{
+        margin-inline: auto;
+        display: flex;
+        width: 80%;
+        height: 400px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px){ 
+    .position-header{
+        width: 100%;
+        height: 40px;
+        position: relative;
+    }
+    .header{
+        height: 45px;
+    }
+    .joy{
+        width: 40px;
+    } 
+    .logo{
+        width: 200px;
+        align-items: center;
+        display: flex;
+    }
+    .phone, .gmail{
+        display: none;
+    }
+    .cars{
+        margin-inline: auto;
+        display: flex;
+        width: 80%;
+        height: 400px;
+    }
+    .barra{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        height: 290px;
+        margin-left: 190px;
+        top: 30px;
+        position: absolute;
+        background-color: chartreuse;
+    }
+    .menu a{
+        text-align: left;
+        text-justify: newspaper;
+        padding: 0px
+    }
+    .menu-ativo{
+        display: flex;
+    }
+    .form-inline{
+        display: none;
+    }
+    .container-end{
+        width: 100%;
+        height: 100px;
+    }
+    .redes{
+        display: none;
+    }
+    .escr, .escrito{
+        position: relative;
+        width: 95%;
+        font-size: 10pt;
+    }
+    .cards{
+        background-color: #218EF2;
+        width: 25%;
+        margin: auto;
+        margin-top: -32px;
+    }
+        
+    .logos{
+        background-color: white;
+        align-items: center;
+        width: 30%;
+        height: 20%;
+        display:flex;
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+
+    
+
 }
