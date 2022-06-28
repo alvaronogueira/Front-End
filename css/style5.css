@@ -271,6 +271,9 @@ p{
         text-justify: newspaper;
         padding: 0px
     }
+    h2{
+        font-size: 10pt;
+    }
     .menu-ativo{
         display: flex;
     }
